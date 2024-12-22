@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 span{
+    color: brown;
+    font-size: 20px;
+}
+
+.card{
+    display: flex;
+    align-items: center; 
+    background-color: rgb(174, 35, 35);
+    border-top: 1px,solid,black;
+    border-bottom: 1px,solid,black;
+    margin-top: 20px;
+}
+
+.card.done{
+    background-color: rgb(131, 248, 248);
+}
